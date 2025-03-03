@@ -16,21 +16,8 @@ body {
     padding: 15px 30px;
     background-color: #2d572c;
     color: white;
-    position: sticky;
-    top: 0;
-    z-index: 900;
 }
 
-.navbar a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    display: flex;
-    justify-content:space-between;
-    align-items:right;
-    padding: 15px 30px;
-}
 
 .section {
     padding: 50px;
@@ -46,16 +33,16 @@ body {
     border-radius: 5px;
     transform: scale(1.05);
 }
-a{ color: #2c12f4;
-text-decoration: none;}
+a{
+  color: #2c12f4;
+  text-decoration: none;}
+
 .container {
     width: 100%;
     max-width: 400px;
     padding: 40px;
-    border-radius: var(--border-radius);
     margin: auto;
     position: relative;
-    background-color: #2d572c;
     transform: scale(0.9);
     transition: opacity 0.5s ease, transform 0.5s ease;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
@@ -64,7 +51,7 @@ text-decoration: none;}
     
 }
 .container:hover{
-    transform: scale(1.25);
+ transform: scale(1.25);
 }
 
 .hidden-text {
